@@ -7,7 +7,7 @@ app.get("/", function(req, res){
 
 app.get("/youhavetolove/:thing", function(req, res){
 	var thing = req.params.thing.toLowerCase();
-	res.render()
+	res.render("love.ejs");
 });
 
 app.listen(3300, function(){
